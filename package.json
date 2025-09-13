@@ -47,6 +47,7 @@
 	"dependencies": {
 		"@atproto/api": "^0.16.9",
 		"@atproto/oauth-client-browser": "^0.3.32",
-		"@tanstack/svelte-query": "^5.87.4"
+		"@tanstack/svelte-query": "^5.87.4",
+		"mode-watcher": "^1.1.0"
 	}
 }
