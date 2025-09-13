@@ -75,7 +75,7 @@
 			]}
 		/>
 
-		<main>
+		<main class="flex min-h-screen w-full flex-col">
 			<Sidebar.Trigger />
 			{@render children?.()}
 		</main>

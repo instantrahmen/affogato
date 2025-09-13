@@ -18,12 +18,15 @@
 	const { items }: Props = $props();
 </script>
 
-<Sidebar.Root>
+<Sidebar.Root collapsible="icon">
 	<Sidebar.Content>
 		<Sidebar.Group>
-			<Sidebar.GroupLabel>Application</Sidebar.GroupLabel>
+			<!-- <Sidebar.GroupLabel>Application</Sidebar.GroupLabel> -->
 			<Sidebar.GroupContent>
 				<Sidebar.Menu>
+					<Sidebar.MenuItem>
+						<Sidebar.Trigger />
+					</Sidebar.MenuItem>
 					{#each items as item (item.title)}
 						<Sidebar.MenuItem>
 							<Sidebar.MenuButton>
